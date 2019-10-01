@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Document</title>
+
+    <link href="/styles.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+        <header class="header">
+                <h1>Rock Paper Scissors</h1>
+        <div id="scoreboard">
+
+                wins: 0,
+
+                loses: 0,
+              
+                ties: 0
+          
+              </div>
+              <h2>Make Your Selection</h2>
+          
+              <div id="radio-group">
+          
+                <label>
+          
+                  <input type="radio"  name="option" value="scissors" />
+          
+                  Scissors
+          
+                </label>
+          
+                <label>
+          
+                  <input type="radio" name="option" value="paper" />
+          
+                  Paper
+          
+                </label>
+          
+                <label>
+          
+                  <input type="radio" name="option" value="rock" />
+          
+                  Rock
+          
+                </label>
+          
+                <button type="button" id="rps-choose">Choose Option</button>
+          
+              </div>
+          
+              <div>
+
+
+
+<div class="container">
+    
+      <button id="restart" class="restart-btn">Restart Game</button>
+      <div id="score" class="score">
+        <p>Player: 0</p>
+        <p>Computer: 0</p>
+      </div>
+    </header>
+  
+
+  <!-- Modal -->
+  <div class="modal">
+    <div id="result" class="modal-content"></div>
+  </div>
+
+
+  <script src="/main.js"></script>
+
+</body>
+
+</html>
